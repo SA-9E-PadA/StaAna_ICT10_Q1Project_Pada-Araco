@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background: url() no-repeat center center/cover;
+           background-image: url('tres.jpg');
+            min-height: 100vh;
+            background-attachment: fixed;
+            font-family: 'Times new Roman', system-ui, sans-serif;
+            font: bold;
+        }
+               
+        .card {
+            background-image: url('images/paperfiller.jpg');
+        }
+
+        .specialcard {
+            background-image: url('images/specialcard.jpg');
+        }
+
+        button {
+            background-image: url('images/filler.jpg');
+        }
+
+        .app-card {
+            border: none;
+            border-radius: 1rem;
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.25);
+        }
+        .app-card .card-header {
+            border-radius: 1rem 1rem 0 0;
+            background: linear-gradient(90deg,  #233023, #3a5a40);
+            color: #f6efbf;
+            padding: 1.5rem;
+        }
+        
+                .topnav {
+            overflow: hidden;
+            background-color: #25231b;
+        }
+
+        .topnav {
+            background-image: url('images/filler.jpg');
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 16px;
+            min-height: 56px;
+        }
+
+        footer {
+            background-image: url('images/filler.jpg');
+        }
+
+
+
+.nav-logo img {
+    height: 100px;
+    width: auto;
+}
+
+.brand-title {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.topnav-right {
+    display: flex;
+    align-items: center;
+}
+
+.topnav-right a {
+    color:  rgb(240, 239, 183);
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 16px;
+}
+
+.topnav-right a:hover {
+    background-color: #322b23;
+    color:  rgb(240, 239, 183);
+}
+
+.topnav-right a.active {
+    background-color: #54483b;
+    color: rgb(240, 239, 183);
+}
+
+.topnav-right input[type=text] {
+    padding: 6px 12px;
+    margin-left: 10px;
+    border: none;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.75rem 1rem;
+            border: 1px solid #e9ecef;
+            border-radius: 0.5rem;
+            margin-bottom: 0.6rem;
+            transition: background 0.15s ease;
+        }
+        .menu-item:hover {
+            background: #f8f9fa;
+        }
+        .menu-item label {
+            font-weight: 600;
+            color: #333;
+            margin-left: 0.6rem;
+            cursor: pointer;
+        }
+        .menu-item .price {
+            color: #342d1f;
+            font-weight: 700;
+        }
+        .form-check-input {
+            width: 1.2em;
+            height: 1.2em;
+        }
+        .btn-order {
+            background: linear-gradient(90deg, #345734, #256f11);
+            border: none;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        .btn-order:hover {
+            opacity: 0.9;
+            color: #3d7443;
+        }
+        #show {
+            min-height: 3rem;
+        }
+        .result-box {
+            background: #f8f9fa;
+            border-left: 5px solid #000000;
+            border-radius: 0.5rem;
+            padding: 1rem 1.25rem;
+        }
+        .receipt-total {
+            font-family: 'Courier New', monospace;
+            font-weight: 700;
+            font-size: 1.3rem;
+            color: #352806;
+        }
+        py-terminal {
+            display: none;
+        }
