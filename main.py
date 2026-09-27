@@ -10,11 +10,10 @@ toggleswitch = False
 # --- Dependent variables ---
 
 # Data from the SKU Generator™
-if True:
-    counter = 0
-    sku_category = ""
-    sku_pname = ""
-    sku_quantity = ""
+counter = 0
+sku_category = ""
+sku_pname = ""
+sku_quantity = ""
 
 # Data from the reciept generator
 selected = [False, False, False, False, False]
@@ -26,18 +25,17 @@ namedata = ""
 # --- Independent variables for edited elements ---
 
 # Elements from the SKU Generator™
-if True:
-    
-    Output = document.getElementById("sku_output")
 
-    t_pid = document.getElementById("t_pid")
-    t_category = document.getElementById("t_category")
-    t_name = document.getElementById("t_name")
-    t_quantity = document.getElementById("t_quantity")
+Output = document.getElementById("sku_output")
 
-    # Sku Alerts
-    t_productalert = document.getElementById("t_productalert")
-    t_productcategory = document.getElementById("t_productcategory")
+t_pid = document.getElementById("t_pid")
+t_category = document.getElementById("t_category")
+t_name = document.getElementById("t_name")
+t_quantity = document.getElementById("t_quantity")
+
+# Sku Alerts
+t_productalert = document.getElementById("t_productalert")
+t_productcategory = document.getElementById("t_productcategory")
 
 # Elements from the Reciept Generator (SPAGHETTI MONSTER)
 
@@ -177,7 +175,6 @@ def create_order(event):
     ordercheck(2)
     ordercheck(3)
     ordercheck(4)
-
 
 
     if emptyform == False:
